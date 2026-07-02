@@ -3,8 +3,13 @@
   "displayName": "Tomorrow Night Burns",
   "description": "Dark crimson VS Code theme ported from the iTerm2 'Tomorrow Night Burns' scheme.",
   "version": "0.0.1",
-  "publisher": "PLACEHOLDER",
+  "publisher": "str3sss",
   "license": "MIT",
+  "scripts": {
+    "package": "pnpm dlx @vscode/vsce package",
+    "publish:vsce": "pnpm dlx @vscode/vsce publish",
+    "publish:ovsx": "pnpm dlx ovsx publish"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
