@@ -1,0 +1,30 @@
+{
+  "name": "tomorrow-night-burns",
+  "displayName": "Tomorrow Night Burns",
+  "description": "Dark crimson VS Code theme ported from the iTerm2 'Tomorrow Night Burns' scheme.",
+  "version": "0.0.1",
+  "publisher": "PLACEHOLDER",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "tomorrow",
+    "red",
+    "crimson"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tomorrow Night Burns",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tomorrow-night-burns-color-theme.json"
+      }
+    ]
+  }
+}
