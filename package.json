@@ -5,6 +5,14 @@
   "version": "0.0.1",
   "publisher": "str3sss",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/str3sss/tomorrow-night-burns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/str3sss/tomorrow-night-burns/issues"
+  },
+  "homepage": "https://github.com/str3sss/tomorrow-night-burns#readme",
   "scripts": {
     "package": "pnpm dlx @vscode/vsce package",
     "publish:vsce": "pnpm dlx @vscode/vsce publish",
