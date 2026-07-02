@@ -15,6 +15,7 @@
   "homepage": "https://github.com/str3sss/tomorrow-night-burns#readme",
   "scripts": {
     "package": "pnpm dlx @vscode/vsce package",
+    "install:local": "pnpm dlx @vscode/vsce package -o tomorrow-night-burns.vsix && code --install-extension tomorrow-night-burns.vsix --force",
     "publish:vsce": "pnpm dlx @vscode/vsce publish",
     "publish:ovsx": "pnpm dlx ovsx publish"
   },
